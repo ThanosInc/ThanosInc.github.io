@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="fr-FR">
+    <html lang="fr-FR>
         <head>
             <title>SPLASH !</title>
             <meta charset="utf-8">
@@ -9,19 +9,25 @@
         <body>
             <div class="photogauche"><img src="Image/logo.jpg" width="100" height="75" align="top" /></div>
             <!-- Définir le haut de page -->
+            <section class="section">
             <header>
-                <h1><strong>SPLASH !</strong></h1>
-
+                <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+                <h1 class = "titre"><strong>S P L A S H !</strong></h1>
+                <br>
+                <br>
+                <br>
             </header>
             <!-- Menu principale de navigation -->
             <nav>
                 <div classe= "table">
                     <ul>
                         <li class="menu-accueil">
-                            <a href = "index.html">Accueil</a>
+                            <a href = "Accueil.html">Accueil</a>
                         </li>
                         <li class="menu-pres">
                             <a href ="Membres.html">Presentation des membres</a>
+                        <li class="à-propos"></li>
+                            <a href ="A propos.html">A propos</a>
                         </li>
                         <li class="menu-règles">
                             <a href ="Regles.html">Regles du jeu</a>
@@ -29,24 +35,47 @@
                         <li class="menu-contact">
                             <a href ="Contact.html">Contactez-nous</a>
                         </li>
-
+                    
                      </ul>
                 </div>
             </nav>
+            </section>
             <article>
                 <section>
-                     <div class="sec">
+                    <h3><strong>Des questions ?</strong></h3>
+                    <p>Vous avez des questions, des commentaires, des messages à nous faire passer ?<br>Vous pouvez remplir le formulaire ci-dessous avec vos coordonnées</p>
+                    
+                    <form method="post" action="traitement.php">
+                        <fieldset>
+                            <legend><strong>Informations:</strong></legend>
+                            <label for="nom">Nom:</label>
+                            <input type="text" name="nom" id="nom"><br><br>
+                        
+                            <label for="prenom">Prénom:</label>
+                            <input type="text" name="prenom" id="prenom"><br><br>
+                        
+                            <label for="mail">Mail:</label>
+                            <input type="text" name="mail" id="mail"><br><br>
+                        
+                            <label for="commentaires">Commentaires:</label>
+                            <textarea name="com" id="commentaires"></textarea><br><br>
+                        
+                            <input type="submit" value="Envoyer">
+                        </fieldset>
+                        
+                    </form>
+                    <!-- <div class="sec">
                         <div class="left">
                              <p class="contact">Si vous souhaitez nous contactez, <a href="mailto: mariem.ndiaye@epita.fr"><img src="Image/gmail.png" alt="mail"></a> </p>
                         </div>
-                     </div>
+                     </div>-->
                 </section>
             </article>
-
+            
             <!-- Définir le pied de page -->
             <footer>
                 <p>Thanos_inc</p>
             </footer>
-
+            
         </body>
-    </html>
+    </html> 

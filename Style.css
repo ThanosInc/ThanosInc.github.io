@@ -7,18 +7,21 @@ body{
     /*background-image: url(Image/peinturet.png);*/
 }
 h1{
-    font-size: 50px;
+    font-size: 26px;
     font-weight: normal;
     text-align: center;
+    font-family: hel
+    /*border-style: outset;*/
+    /*border-color:white;*/
     
 }
 header{
-    height: 100px;
+    height: 150px;
 }
 header strong{
-    color: orange;
+    color: white;
     border-width:2px;
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     /*border-style:outset;
     border-color:orange;
     background-color: orange;*/
@@ -35,8 +38,9 @@ footer{
     
 }
 nav{
+    padding: 0; margin: 0;
     width: 100%;
-    background: green;
+    /*background: green;*/
     text-align: center;
     
 }
@@ -49,7 +53,7 @@ nav li{
     display: inline;
     list-style-type: none;
     /* Mettre les éléments en lignes*/
-    float: left;
+    /*float: left;*/
     
 }
 
@@ -60,8 +64,8 @@ nav a{
     color: white;
     text-transform: uppercase;
     font-size: 15px;
-    border-style: outset;
-    background-color: black;
+    /*border-style: outset;*/
+    background-color: orange;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 .table{
@@ -79,7 +83,9 @@ nav a{
 .nom{
     text-align: center;
     border-style: outset;
-    background-color: orange;
+    background-color: white;
+    float: left;
+    width: 30%;
 }
 
 section div img{
@@ -110,7 +116,8 @@ h2{
  }
  
  .sec{ 
-    margin: 0px 10%;
+   margin: 0px 10%;
+   /*background-image: url(Image/1.png); */
  }
  
  .left{
@@ -127,6 +134,7 @@ h2{
     background-color: white;*/
     text-align: center;
     /*background-image:url(Image/splash1.png);*/
+    
 }
  
 .bienvenue{
@@ -140,6 +148,137 @@ height:75px;
 margin-right:10px;
 } 
 
+.section{
+    background-color: orange;
+    width: 100%;
+    min-height: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.titre{
+   /* border-style: outset;*/
+  margin:15px;
+  min-width:120px;
+  border-bottom: 6px solid white;
+    background-color: lightgrey;
+
+  /*background-color:white;*/
+  overflow:hidden;
+  text-align:left
+}
+
+
+.textOverImage{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin:3px;
+    background-size:100%;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.textOverImage:hover{
+    background-size:110%;
+}
+
+.textOverImage:after{
+    position: absolute;
+    top:100%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0,6);
+    color: #fff;
+    padding:0 8px;
+    opacity:0;
+    content:attr(data-text);
+    transition: 0.5s;
+    
+}
+
+.textOverImage:hover:after{
+    opacity:1;
+    top:0;
+    padding: 8px;
+}
+
+.textOverImage:first-line{
+    color:#fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+legend{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: orange;
+}
+
+input[type="submit"]{
+    float:right;
+    padding:10px;
+    font-size:16px;
+    color: orange;
+    font-weight:bold;
+    text-transform: uppercase;
+    background-color: #grey;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 3px #555;
+    background-color: #e8ab2e;
+}
+
+/*.1 .2 .3{
+    padding: 1. px 20 px;
+    font-size: 16px;
+}*/
+
+.redi{
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}
+
+
+.logo {
+    background-color: black;
+    height: 30%;
+}
+
+.logo img{
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}
+
+.presentation{
+    background-image: url(Image/1.png);
+}
+
+#o{
+    float: left;
+}
+/*#hj{
+    background-image:url(Image/peinture3.jpg);
+}*/
 
 
  
