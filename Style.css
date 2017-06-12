@@ -1,10 +1,10 @@
 body{
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-    font-size: 13px;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
     text-align: center;
-    /*background-image: url(Image/peinturet.png);*/
+    /*background-image: url(Image/menu.png);*/
 }
 h1{
     font-size: 26px;
@@ -47,109 +47,66 @@ nav{
 nav ul{
     margin: 0px;
     padding: 0px;
+    
 }
 
 nav li{
     display: inline;
     list-style-type: none;
+   /* border-style: outset;
+    background-color:orange; */
+    
     /* Mettre les éléments en lignes*/
     /*float: left;*/
     
 }
 
 nav a{
+    margin-top:20px;
     display: inline-block;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 5px 10px;
     color: white;
     text-transform: uppercase;
-    font-size: 15px;
-    /*border-style: outset;*/
+    font-size: 20px;
+    border-style: outset;
     background-color: orange;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-}
-.table{
-    display: table;
-    margin: 0 auto;
-}
-
-
-#pres{
-    color: black;
-    border-width:2px;
- }
-   
- 
-.nom{
-    text-align: center;
-    border-style: outset;
-    background-color: white;
-    float: left;
-    width: 30%;
-}
-
-section div img{
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin: 0px 10%;
-}
-
-
-
-
-h2{
-    float: left;
-    width: 30%;
-}
- /* Contact */
- .contact{
-    border-style: outset;
-    background-color: white; 
- }
- 
- section{
-    width: 100%;
-    min-height: 300px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
- }
- 
- .sec{ 
-   margin: 0px 10%;
-   /*background-image: url(Image/1.png); */
- }
- 
- .left{
-    float: left;
-    width: 30%;
-    text-align: center;
-}
-
-.right{
-    margin: auto;
-    float: left;
-    width:70%;
-    /*border-style: outset;
-    background-color: white;*/
-    text-align: center;
-    /*background-image:url(Image/splash1.png);*/
-    
-}
- 
-.bienvenue{
-    text-align: center;
+    text-shadow : 8px 2px 6px #000;
 }
 
 div.photogauche { 
 float: left; 
-width: 100px;
+width: 75px;
 height:75px;
+padding: 12px;
 margin-right:10px;
-} 
+}
+
+
+/*img{
+    width:500px;
+	height: 250px;
+
+}*/
+
+.milieu{
+    /*background-color: white;*/
+    height: 1000px;
+    width:740px;
+    padding:40px;
+    margin:auto;
+   
+}
+
+.table{
+    
+    display: table;
+    margin: 0 auto;
+}
 
 .section{
-    background-color: orange;
+    /*background-color: orange;*/
     width: 100%;
     min-height: 100px;
     padding-bottom: 10px;
@@ -161,12 +118,200 @@ margin-right:10px;
   margin:15px;
   min-width:120px;
   border-bottom: 6px solid white;
-    background-color: lightgrey;
+  background-color: lightgrey;
 
   /*background-color:white;*/
   overflow:hidden;
   text-align:left
 }
+
+.color{
+    /*#696969;*/
+    background-color:SlateGray;
+    /*background-image: url(Image/bleu.png);*/
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: white;
+    text-shadow : 8px 2px 6px #000;
+    font-size: 14px;
+}
+
+.right3{
+    position: absolute;
+    left: 10px;
+    width:40%;
+    
+}
+
+.left3{
+    position: absolute;
+    right: 10px;
+    width:45%;
+    background-image: url(Image/marieme.jpg); 
+}
+
+.redim{
+    width: 200px;
+	height: 200px;
+}
+
+.imgredi{
+    width: 150px;
+	height: 150px;
+}
+
+.imgredi2{
+    width: 740px;
+    height: 225px;
+}
+
+
+html { 
+  background: url(Image/FondSite2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+section{
+    background-image: url(Image/123.png);
+    /*border-radius: 10px;*/
+   /* background-color:#696969;
+    background-image: url(Image/FaceToFace2.png);*/
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: white;
+    text-shadow : black 0.1em 0.1em 0.2em;
+    font-size: 14px;
+    
+    
+
+}
+
+h3{
+    border-style:outset;
+    border-radius: 10px;
+    border-color:orange;
+    background-color: orange; 
+}
+
+h2{
+    border-style:outset;
+    border-radius: 10px;
+    border-color:orange;
+    background-color: orange; 
+}
+
+.menu{
+    wight: 500px;
+    height: 10px;
+}
+
+.footer{
+    wight: 500px;
+    border-radius: 10px;
+    
+}
+
+#apropos{
+    width: 50px;
+    height: 50px;
+}
+
+tr{
+    background-image: url(Image/gris.jpg);
+    color: white;
+    text-shadow : 8px 2px 6px #000;
+    
+    
+}
+
+
+.jeu{
+    width: 250px;
+    height: 250px;
+}
+
+.titre1{
+    width: 500px;
+    height: 150px;
+    margin-right: 50px;
+
+}
+
+.enc{
+    border-style: outset;
+    border-color:orange;
+    border-radius:10px;
+    background-color: orange;
+    font-size:15px;
+    
+}
+
+.aff{
+    background-color:SlateGray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table{
+    border-collapse: collapse;
+    width: 750px;
+}
+
+legend{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: orange;
+}
+
+input[type="submit"]{
+    float:right;
+    padding:10px;
+    font-size:16px;
+    color: orange;
+    font-weight:bold;
+    text-transform: uppercase;
+    background-color: #grey;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 3px #555;
+    background-color: #e8ab2e;
+}
+
+
+
+
+
 
 
 .textOverImage{
@@ -218,85 +363,3 @@ td{
     border: 1px solid black;
     padding: 10px 15px;
 }
-
-table{
-    border-collapse: collapse;
-}
-
-legend{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 18px;
-    color: orange;
-}
-
-input[type="submit"]{
-    float:right;
-    padding:10px;
-    font-size:16px;
-    color: orange;
-    font-weight:bold;
-    text-transform: uppercase;
-    background-color: #grey;
-    border-radius: 5px;
-}
-
-input[type="submit"]:hover{
-    box-shadow: 0px 0px 3px #555;
-    background-color: #e8ab2e;
-}
-
-/*.1 .2 .3{
-    padding: 1. px 20 px;
-    font-size: 16px;
-}*/
-
-.redi{
-    width: 50%;
-    height: 30%;
-    margin: auto;
-}
-
-
-.logo {
-    background-color: black;
-    height: 30%;
-}
-
-.logo img{
-    width: 50%;
-    height: 30%;
-    margin: auto;
-}
-
-.presentation{
-    background-image: url(Image/1.png);
-}
-
-#o{
-    float: left;
-}
-/*#hj{
-    background-image:url(Image/peinture3.jpg);
-}*/
-
-
- 
-
-
-/*@media screen and (max-width: 780px){
-    header{
-        height: 50px;
-    }
-    h1{
-        font-size: 28px;
-        margin: 20px 0px 0px 0px;
-    }
-    nav li a{
-        font-size: 12px;
-        padding: 10px;
-    }
-    nav li: hover a{
-        padding: 5px 10px 10px 10px;
-    }
-}*/
